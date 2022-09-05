@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">    
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="brjupo_rewardpointsreport_data_source" xsi:type="string">Brjupo\RewardPointsReport\Model\ResourceModel\RewardPointsReport\Grid\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+    <virtualType name="Brjupo\RewardPointsReport\Model\ResourceModel\RewardPointsReport\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">rewardpoints_report</argument>
+            <argument name="resourceModel" xsi:type="string">Brjupo\RewardPointsReport\Model\ResourceModel\RewardPointsReport</argument>
+        </arguments>
+    </virtualType>
+</config>

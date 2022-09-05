@@ -1,0 +1,23 @@
+{
+    "name": "brjupo/rewardpointsreport",
+    "description": "Reward Points Report - Grid - Customer Name, customer email, reward points delta, reward points expired at static",
+    "require": {
+      "php": "~7.4.0"
+    },
+    "type": "magento2-module",
+    "authors": [
+      {
+        "name": "Brjupo",
+        "email": "brjupo@gmail.com"
+      }
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Brjupo\\RewardPointsReport\\": ""
+      }
+    }
+  }
+  

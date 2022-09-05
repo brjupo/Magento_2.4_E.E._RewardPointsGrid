@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Brjupo_RewardPointsReport::reports" title="Reward Points Report" translate="title" module="Brjupo_RewardPointsReport" sortOrder="10" parent="Magento_Reports::report_salesroot" action="reward_points/report/Index" resource="Brjupo_RewardPointsReport::reports"/>
+    </menu>
+</config>
